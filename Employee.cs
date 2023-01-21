@@ -33,7 +33,6 @@ internal class Employee
     {
         PerformWork(minimalHoursWorkedUnit);
     }
-    
     public void PerformWork(int numberOfHours)
     {
         numberOfHoursWorked++;
@@ -52,6 +51,6 @@ internal class Employee
 
     public void DisplayEmployeeDetails()
     {
-        Console.WriteLine($"\nFirst name: \t{firstName}\nLast name:{lastName}\n Email:\t\t{email}\nBirthday: \t{birthDay.ToShortDateString()}\n");
+        Console.WriteLine($"First name: {firstName}\nLast name: {lastName}\nEmail: {email}\nBirthday: {birthDay.ToShortDateString()}");
     }
 }
